@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url(img4.jpg);
+    height:90vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px,100vw);
+    box-shadow: inset 100px 100px 100px 100px rgba(0, 0, 0, 0.397);
+    margin-bottom: 10px;
+   
+    
+}
+.main .box{
+    background-color: black;
+    opacity: 0.55;
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    top: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 75vw;
+    margin: auto;
+    height: 62px;
+    padding-top: 10px;
+}
+.nav .netflix_logo{
+    color: red;
+    width: 146px;
+    position: relative;
+    z-index: 10;
+
+}
+.nav .button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    gap: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    height: 80.7vh;
+    position: relative;
+
+}
+.hero> :first-child{
+    font-size:  3rem; 
+    text-align: center;
+    letter-spacing: -0.1cm;
+}
+.hero> :nth-child(2){
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+}
+.hero> :nth-child(3){
+    font-weight: 200;
+    font-size: 18px;
+    text-align: center;
+
+}
+.line{
+    background-color: rgb(35, 35, 35);;
+    height: 0.5rem;
+    width: 100%; 
+    
+}
+.btn{
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: rgb(229, 9, 20);
+    cursor: pointer;
+}
+.btn-sn{
+    padding: 6px 16px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+   
+}
+.btn-lang{
+    background-color:transparent ;
+    padding: 4px 30px;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 0.1px solid rgb(112, 107, 107);
+    background-color: rgba(0, 0, 0, 0.678);
+}
+.btn-gets{
+    width: max(200px);
+    height: max(55px);
+    font-weight: 10;
+    font-size: 25px;
+    border-radius: 5px;
+    border: none;
+}
+.input1{
+    padding: 17px 10px;
+    width: max(350px);
+    border-radius: 5px;
+    border: solid red 1px;
+    font-size:16px;
+    color: aliceblue;
+    background: transparent;
+    background-color: rgba(12, 12, 12, 0.744);
+    font-weight: 500;
+}
+.button_email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.first{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    max-width: 80vw;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+   
+}
+
+
+
+.text> :first-child{
+    font-size: 2.8rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text> :nth-child(2){
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    
+}
+.img1{
+    position: relative;
+}
+.img1 video{
+    position: absolute;
+    left: 85px;
+    top: 96px;
+    z-index: -1;
+}
+.third video{
+    left: 117px;
+    width: 394px;
+    top: 33px;
+}
+.faq h2{
+    width: 80vw;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    margin: auto;
+    
+    margin-bottom: 20px;
+}
+.faq{
+    margin:50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.faqbox{
+    transition: all 0.2s ease-out;
+    color: white;
+    background:#3d3c3b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
+    margin: auto;
+    font-size: 1.4rem;
+    padding: 25px;
+    cursor: pointer;
+}
+.faqbox:hover{
+    background-color: #595856;
+}
+.bottom p{
+    color: white;
+    font-size: 19px;
+    word-spacing: -2px;
+}
+.bottom{
+    row-gap: 20px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+footer{
+    
+    padding: 60px;
+    color: rgb(196, 186, 186);
+    width: 70vw;
+    margin: auto;
+   
+    
+   
+}
+.footer>:first-child{
+     cursor: pointer;
+     font-size: 18px;
+}
+
+.footer_item{
+    column-gap: 50px;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+.footer_item a{
+    color: rgb(196, 186, 186);
+
+}
+
+.footer_item{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+@media  screen and (max-width:1000px){
+    .first{
+        flex-wrap: wrap;
+    }
+    .button_email{
+        flex-direction: column;
+    }
+    .first .img1 img{
+        width: 400px;
+    }
+    .third .img1 .video2{
+        height:132px;
+        width: 226px;
+        top: 27px;
+        right: 9px;
+        left: 79px;
+    }
+    .first .img1 .video1{
+        width: 303px;
+        top: 64px;
+        height: 164px;
+        left: 50px;
+    }
+    
+    .footer_item{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media screen and (max-width:500px){
+    .footer_item{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+    
+    
+
+
+
+
